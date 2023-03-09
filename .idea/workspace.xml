@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0361d585-fe87-476c-be81-dc107f0f0ed2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/emergency-system.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/.attach_pid11091" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/.attach_pid11265" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/.attach_pid9746" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/src/main/java/org/solarhis/apiHospital/ApiHospitalApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiHospital/src/test/java/org/solarhis/apiHospital/ApiHospitalApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix-eureka-naming-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix-eureka-naming-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix-eureka-naming-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix-eureka-naming-server/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix-eureka-naming-server/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix-eureka-naming-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix-eureka-naming-server/src/main/java/org/solarhis/netflixeurekanamingserver/NetflixEurekaNamingServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix-eureka-naming-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix-eureka-naming-server/src/test/java/org/solarhis/netflixeurekanamingserver/NetflixEurekaNamingServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/medhead/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/medhead/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../exemples/api/src/main/java/com/openclassrooms/api/controller/EmployeeController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../exemples/api/src/main/java/com/openclassrooms/api/model/Employee.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../exemples/api/src/main/java/com/openclassrooms/api/repository/EmployeeRepository.java" beforeDir="false" />
@@ -45,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
