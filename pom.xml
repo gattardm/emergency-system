@@ -12,19 +12,48 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <manifest.file>src/resources/META-INF/MANIFEST.MF</manifest.file>
+        <manifest.file>src/main/resources/META-INF/MANIFEST.MF</manifest.file>
     </properties>
 
     <build>
         <finalName>emergency-system</finalName>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId/>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>jar-with-deps</id>
+                        <phase>pre-integration-test</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
+                    <archive>
+                        <manifestFile>${manifest.file}</manifestFile>
+                        <!--these properties are ignored-->
+                        <manifest>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                            <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <archive>
+                        <manifestFile>${manifest.file}</manifestFile>
+                        <manifest>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                            <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>
